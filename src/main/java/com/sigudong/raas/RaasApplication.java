@@ -32,7 +32,7 @@ public class RaasApplication {
      * https://www.code.go.kr/stdcode/regCodeL.do 에서 다운받은
      * 법정동 txt 파일에서 존재하는 정보중 읍면동 (3레벨) 까지있는것만 local mongodb 에 저장한다.
      */
-    @Component
+    /*@Component
     public class SaveCodeB {
         @Bean
         CommandLineRunner init(CodeBRepository repository) {
@@ -104,7 +104,7 @@ public class RaasApplication {
 
             };
         }
-    }
+    }*/
 
     /**
      * 법정동 gis 정보 마이그레이션 (local -> dev or prod)
